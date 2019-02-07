@@ -200,6 +200,18 @@
 		'prefix': 'odoo_domain'
 		'body': 'domain="[(\'$1\', \'=\', $2), ]"'
 
+	'Add invisibility domain':
+		'prefix': 'odoo_attrs_invisible'
+		'body': """
+			attrs="{'invisible': [(\'$1\', \'=\', $2), ]}"
+		"""
+
+	'Add readonly domain':
+		'prefix': 'odoo_attrs_readonly'
+		'body': """
+			attrs="{'readonly': [(\'$1\', \'=\', $2), ]}"
+		"""
+
 # Security
 
 	'Create security category':
