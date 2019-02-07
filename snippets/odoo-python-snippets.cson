@@ -203,3 +203,9 @@
 					operator = 'ilike'
 				return [('${100:new_field}', operator, value)]}
 			"""
+
+# Fields attributes
+
+	'Add domain to a field':
+		'prefix': 'odoo_domain'
+		'body': 'domain="[(\'$1\', \'=\', $2), ]"'
