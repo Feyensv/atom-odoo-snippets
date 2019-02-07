@@ -115,6 +115,10 @@
 		'prefix': 'odoo_field_binary'
 		'body': '${5:new_field} = fields.Binary(string="${10:Field name}", )'
 
+	'Monetary Field':
+		'prefix': 'odoo_field_monetary'
+		'body': '${5:new_field} = fields.Monetary(string="${10:Field name}", currency_field="${20:res.currency Field name}", )'
+
 # Call to common Odoo methods
 
 	'Search':
