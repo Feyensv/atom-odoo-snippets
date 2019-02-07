@@ -172,7 +172,7 @@
 # Complex Odoo fields
 
 	'Compute field':
-		'prefix': 'ododoo_field_compute'
+		'prefix': 'odoo_field_compute'
 		'body': """
 			${10:new_field} = fields.${20:Float}(
 				string="${30:Field string}",

@@ -117,7 +117,7 @@
 	'Create new action':
 		'prefix': 'odoo_action'
 		'body': """
-			<record id="$1_action_form" model="ir.actions.act_window">
+			<record id="$1_action" model="ir.actions.act_window">
 				<field name="name">$2</field>
 				<field name="res_model">$3</field>
 				<field name="view_mode">tree,form</field>
